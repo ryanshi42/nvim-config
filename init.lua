@@ -21,8 +21,6 @@ Plug("https://github.com/junegunn/vim-github-dashboard.git")
 Plug("SirVer/ultisnips")
 Plug("honza/vim-snippets")
 
---
-
 -- Intellisense
 Plug("neoclide/coc.nvim", { branch = "release" })
 
