@@ -42,6 +42,8 @@ call("plug#end")
 -- vim.cmd[[colorscheme dracula]]
 --
 --
+
+-- The following code will only work when you run PlugInstall
 vim.api.nvim_exec([[ autocmd VimEnter * NERDTree | wincmd p ]], false)
 local set = vim.opt -- set options
 set.tabstop = 4
